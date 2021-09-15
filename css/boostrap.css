@@ -1,0 +1,13 @@
+body{
+    background-image: url(../img/istockphoto-1189900899-170667a.jpg);
+    background-attachment: fixed;
+}
+.btn-primary {
+    background-color: rgba(220, 20, 60, 0.616);
+}
+.btn-primary:hover{
+    background-color: darkmagenta;
+}
+.bg-otra{
+    background-color: rgba(255, 140, 0, 0.589);
+}

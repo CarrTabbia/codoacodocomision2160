@@ -1,0 +1,50 @@
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+    justify-content: space-around; 
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.cuadro{
+  background-color: rgb(11, 84, 133);
+  width: 20%;
+  /* height: 400px; */
+  /* margin: 10px 10px; */
+    /* float:right;
+  margin: 10px;
+  border: 80px solid gray; 
+  box-sizing: border-box;  */
+ overflow: auto ;
+}
+.cuadro p {
+font-size:x-large;
+
+}
+ 
+.cuadro p::before{
+    content: "Para que no me copien el texto";
+}
+.cuadro p::after{
+    content: "Acá tampoco puede copiarte";
+}
+.cuadro p::first-letter {
+    color: yellow;
+    background-color: black;
+    padding: 2px;
+    font-size: 30px;
+}
+footer {
+    background-color: rgb(206, 233, 109);
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px ;
+}
+.letra {
+  font-family: 'Lobster', cursive;
+}
+body{
+  overflow: hidden;
+}
